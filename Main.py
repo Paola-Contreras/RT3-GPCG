@@ -38,4 +38,4 @@ rtx.scene.append(AABB(position=(-1.5,0.5,-10), size=(2,2,2), material=grey))
 
 rtx.glRender()
 
-rtx.glFinish("output1.bmp") 
+rtx.glFinish("output.bmp") 
