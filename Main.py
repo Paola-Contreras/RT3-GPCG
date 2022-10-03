@@ -18,8 +18,6 @@ mirror = Material(diffuse = (0.9, 0.9, 0.9), spec = 64, matType = REFLECTIVE)
 glass = Material(diffuse = (0.9, 0.9, 0.9), spec = 64, ior = 1.5, matType = TRANSPARENT)
 diamond = Material(diffuse = (0.9, 0.9, 0.9), spec = 64, ior = 2.417, matType = TRANSPARENT)
 marble = Material(diffuse = (0.8,0.8,0.8), texture = Texture("marble.bmp"), spec = 32, matType= REFLECTIVE)
-canica = Material(diffuse = (0.8,0.8,1.0), texture = Texture("whiteMarble.bmp"), spec = 32, ior = 1.5, matType= REFLECTIVE)
-
 
 rtx = Raytracer(width, height)
 
@@ -38,4 +36,4 @@ rtx.scene.append(AABB(position=(-1.5,0.5,-10), size=(2,2,2), material=grey))
 
 rtx.glRender()
 
-rtx.glFinish("output.bmp") 
+rtx.glFinish("output1.bmp") 
